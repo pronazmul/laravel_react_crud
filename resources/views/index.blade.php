@@ -16,7 +16,6 @@
     </head>
     <body>
            <div id="root"></div> 
-
            <script src="{{asset('js/main.js')}}"></script>
     </body>
 </html>
