@@ -32,8 +32,12 @@ mix.react('resources/js/main.js', 'public/js')
     </body>
 </html>
 ```
-> Step 3 Compiling Assets Cmd & Laravel Server Start Cmd
+> Compiling Assets Cmd & Laravel Server Start Cmd
 ```sh
 $ npm run dev
 $ php artisan serve
+```
+> Make Image Directory & Compile it
+```sh 
+mix.copyDirectory('resources/images', 'public/images')
 ```
