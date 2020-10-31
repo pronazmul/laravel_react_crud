@@ -8,6 +8,7 @@ $ npm install
 $ npm install react
 $ npm install react-dom
 $ npm install react-bootstrap bootstrap
+$ npm install react-router-dom --save
 ```
 > React File Structure Organize:
 -   App.js | App.test.js | index.js | serviceWorker.js | setupTests.js (Must Be Setup In Lravel-> Resource -> Js)
@@ -40,4 +41,10 @@ $ php artisan serve
 > Make Image Directory & Compile it
 ```sh 
 mix.copyDirectory('resources/images', 'public/images')
+```
+> ### Laravel Route Redirect To Frontend React From web.php
+```sh 
+Route::get('{ReactRoute}', function(){
+    return view('index');
+})->where('ReactRoute','.*');
 ```
