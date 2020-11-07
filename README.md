@@ -36,6 +36,7 @@ mix.react('resources/js/main.js', 'public/js')
 > Compiling Assets Cmd & Laravel Server Start Cmd
 ```sh
 $ npm run dev
+$ npm run watch //To Skip run dev cmd to each change
 $ php artisan serve
 ```
 > Make Image Directory & Compile it
