@@ -33,6 +33,11 @@ mix.react('resources/js/main.js', 'public/js')
     </body>
 </html>
 ```
+> An Error Accured Before Build:   Module not found: Error: Can't resolve 'web-vitals'
+```sh
+//Requred Dependencies
+$ npm install web-vitals
+```
 > Compiling Assets Cmd & Laravel Server Start Cmd
 ```sh
 $ npm run dev
