@@ -6,7 +6,7 @@
 $ composer create-project --prefer-dist laravel/laravel laravel_react_crud
 $ npm install
 $ npm install react
-$ npm install react-dom
+$ npm install react-dom 
 $ npm install react-bootstrap bootstrap
 $ npm install react-router-dom --save
 ```
