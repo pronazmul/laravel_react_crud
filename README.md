@@ -15,7 +15,7 @@ $ npm install react-router-dom --save
 -   Remove Normal Bootstrap | Jquery | Propbar Dependencies
  
  > Webpak.mix Organize:
-```sh 
+```sh  
 mix.react('resources/js/main.js', 'public/js')
     .postCss('resources/css/main.css', 'public/css')
 ```
